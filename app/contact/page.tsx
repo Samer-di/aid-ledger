@@ -1,5 +1,5 @@
-import WorkingHours from "./components/WorkingHours";
-import ContactForm from "./components/ContactForm";
+import WorkingHours from "../../components/contact/WorkingHours";
+import ContactForm from "../../components/contact/ContactForm";
 
 export default function ContactPage() {
   return (
