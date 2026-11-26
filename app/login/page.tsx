@@ -23,6 +23,8 @@ export default function StaffLoginPage() {
         </p>
 
         <form
+          method="post"
+          name="staffLogin"
           className="mt-[30px]"
           onSubmit={(event) => event.preventDefault()}
         >
