@@ -71,7 +71,7 @@ const Activity = () => {
               icon={faLock}
               className="text-7xl text-[#1B4195]"
             />
-            <h2 className="text-xl lg:text-2xl font-bold pt-5 text-nowrap">
+            <h2 className="text-xl lg:text-2xl font-bold pt-5 text-wrap">
               Protection & Safe Spaces
             </h2>
             <p className="pt-5 text-justify lg:text-xl">
@@ -81,7 +81,7 @@ const Activity = () => {
           </div>
         </div>
         <div className=" w-full lg:w-125 h-100 flex items-center justify-center">
-          <div className="w-[70%] h-[90%] rounded-2xl shadow-2xl bg-white flex flex-col items-center p-7">
+          <div className="w-[70%] h-[95%] rounded-2xl shadow-2xl bg-white flex flex-col items-center p-7">
             <FontAwesomeIcon
               icon={faUserGroup}
               className="text-7xl text-[#1B4195]"
