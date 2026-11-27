@@ -41,7 +41,7 @@ const Activity = () => {
               icon={faHeartPulse}
               className="text-7xl text-[#1B4195]"
             />
-            <h2 className="text-xl lg:text-2xl font-bold pt-5 text-nowrap">
+            <h2 className="text-xl lg:text-2xl font-bold pt-5 text-wrap">
               Physical Health & Wellness
             </h2>
             <p className="pt-5 text-justify lg:text-xl">
