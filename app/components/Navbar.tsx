@@ -2,13 +2,13 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBars,
   faXmark,
   faChevronDown,
-  faHandHoldingHeart,
   faHeartPulse,
   faBookOpen,
   faSeedling,
@@ -73,7 +73,7 @@ export default function Navbar() {
       <div className="relative mx-auto flex h-[70px] max-w-[1200px] items-center justify-between px-5">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 text-xl font-bold text-[#0F1126]">
-          <FontAwesomeIcon icon={faHandHoldingHeart} className="w-6 text-[#007F80]" />
+          <Image src="/logo.png" alt="Akkarouna logo" width={36} height={36} priority />
           Akkarouna
         </Link>
 
