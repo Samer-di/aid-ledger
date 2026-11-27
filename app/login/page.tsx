@@ -1,15 +1,14 @@
-
 "use client";
 
 import Link from "next/link";
 
 export default function StaffLoginPage() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-[#F3F7FA] px-5 py-10">
-      <section className="w-full max-w-[440px] rounded-[18px] border border-[#D5DEE7] bg-white px-5 py-7 text-[#0F1126] shadow-[0_12px_35px_rgba(15,17,38,0.08)] min-[601px]:p-9">
+    <main className="mt-20 flex min-h-screen items-center justify-center caret-transparent bg-[#F3F7FA] px-5 py-10">
+      <section className="w-full max-w-[440px] caret-transparent rounded-[18px] border border-[#D5DEE7] bg-white px-5 py-7 text-[#0F1126] shadow-[0_12px_35px_rgba(15,17,38,0.08)] min-[601px]:p-9">
         <Link
           href="/aidledger"
-          className="font-semibold text-[#007F80] no-underline"
+          className="cursor-pointer font-semibold text-[#007F80] no-underline"
         >
           ← Back to AidLedger
         </Link>
@@ -41,7 +40,7 @@ export default function StaffLoginPage() {
             type="email"
             placeholder="Enter your email"
             autoComplete="username"
-            className="mt-2 mb-[22px] block w-full rounded-lg border border-[#D5DEE7] bg-white p-[14px] text-[#181E33] focus:outline-2 focus:outline-offset-1 focus:outline-[#1B4195]"
+            className="mt-2 mb-[22px] block w-full caret-auto rounded-lg border border-[#D5DEE7] bg-white p-[14px] text-[#181E33] focus:outline-2 focus:outline-offset-1 focus:outline-[#1B4195]"
           />
 
           <label
@@ -57,7 +56,7 @@ export default function StaffLoginPage() {
             type="password"
             placeholder="Enter your password"
             autoComplete="current-password"
-            className="mt-2 mb-[22px] block w-full rounded-lg border border-[#D5DEE7] bg-white p-[14px] text-[#181E33] focus:outline-2 focus:outline-offset-1 focus:outline-[#1B4195]"
+            className="mt-2 mb-[22px] block w-full caret-auto rounded-lg border border-[#D5DEE7] bg-white p-[14px] text-[#181E33] focus:outline-2 focus:outline-offset-1 focus:outline-[#1B4195]"
           />
 
           <button
