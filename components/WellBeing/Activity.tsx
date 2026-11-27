@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Activity = () => {
   return (
     <div className="w-full grid grid-rows-[100px_auto]">
-      <div className="border-2 border-black w-full flex items-center justify-center">
+      <div className=" w-full flex items-center justify-center">
         <h1 className="text-[#0F1126] text-3xl font-bold">
           <FontAwesomeIcon
             icon={faFileLines}
@@ -19,8 +19,8 @@ const Activity = () => {
           &nbsp;Our Activities
         </h1>
       </div>
-      <div className="border-2 border-black w-full flex flex-col lg:flex-row flex-wrap lg:justify-center">
-        <div className="border-2 border-black w-full lg:w-125 h-100 flex items-center justify-center">
+      <div className=" w-full flex flex-col lg:flex-row flex-wrap lg:justify-center">
+        <div className=" w-full lg:w-125 h-100 flex items-center justify-center">
           <div className="w-[70%] h-[90%] rounded-2xl shadow-2xl bg-white flex flex-col items-center p-7">
             <FontAwesomeIcon
               icon={faHandHoldingHeart}
@@ -35,7 +35,7 @@ const Activity = () => {
             </p>
           </div>
         </div>
-        <div className="border-2 border-black w-full lg:w-125 h-100 flex items-center justify-center">
+        <div className=" w-full lg:w-125 h-100 flex items-center justify-center">
           <div className="w-[70%] h-[90%] rounded-2xl shadow-2xl bg-white flex flex-col items-center p-7">
             <FontAwesomeIcon
               icon={faHeartPulse}
@@ -50,7 +50,7 @@ const Activity = () => {
             </p>
           </div>
         </div>
-        <div className="border-2 border-black w-full lg:w-125 h-100 flex items-center justify-center">
+        <div className=" w-full lg:w-125 h-100 flex items-center justify-center">
           <div className="w-[70%] h-[90%] rounded-2xl shadow-2xl bg-white flex flex-col items-center p-7">
             <FontAwesomeIcon
               icon={faStethoscope}
@@ -65,7 +65,7 @@ const Activity = () => {
             </p>
           </div>
         </div>
-        <div className="border-2 border-black w-full lg:w-125 h-100 flex items-center justify-center">
+        <div className=" w-full lg:w-125 h-100 flex items-center justify-center">
           <div className="w-[70%] h-[90%] rounded-2xl shadow-2xl bg-white flex flex-col items-center p-7">
             <FontAwesomeIcon
               icon={faLock}
@@ -80,7 +80,7 @@ const Activity = () => {
             </p>
           </div>
         </div>
-        <div className="border-2 border-black w-full lg:w-125 h-100 flex items-center justify-center">
+        <div className=" w-full lg:w-125 h-100 flex items-center justify-center">
           <div className="w-[70%] h-[90%] rounded-2xl shadow-2xl bg-white flex flex-col items-center p-7">
             <FontAwesomeIcon
               icon={faUserGroup}

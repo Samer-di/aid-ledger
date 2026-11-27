@@ -1,6 +1,7 @@
 import About from "@/components/WellBeing/About";
 import Activity from "@/components/WellBeing/Activity";
 import Head from "@/components/WellBeing/Head";
+import Photograph from "@/components/WellBeing/Photograph";
 import Supports from "@/components/WellBeing/Supports";
 
 const page = () => {
@@ -10,6 +11,7 @@ const page = () => {
       <About />
       <Supports />
       <Activity />
+      <Photograph />
     </main>
   );
 };
