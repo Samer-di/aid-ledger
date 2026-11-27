@@ -6,7 +6,7 @@ import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
 const Head = () => {
   return (
-    <div className="w-full h-auto grid bg-[#F3F7FA] grid-rows-[400px_1fr] lg:grid-cols-[50%_1fr] caret-transparent">
+    <div className="w-full h-auto grid grid-rows-[400px_1fr] lg:grid-cols-[50%_1fr] caret-transparent">
       <div className="w-full lg:h-full flex justify-center items-center">
         <div className="w-[90%] h-75 md:w-[60%] lg:w-[95%] lg:h-full rounded-4xl bg-[url(/wellBeingHead.png)] bg-no-repeat bg-size-[100%_100%]"></div>
       </div>
@@ -14,7 +14,7 @@ const Head = () => {
         <h1 className="ml-5 text-4xl lg:text-5xl font-bold text-[#0F1126] pt-12.5">
           <FontAwesomeIcon
             icon={faHeartPulse}
-            className="lg:text-6xl"
+            className="lg:text-6xl text-[#1B4195]"
           ></FontAwesomeIcon>
           &nbsp;Well-Being
         </h1>
