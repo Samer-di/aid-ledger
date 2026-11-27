@@ -1,3 +1,4 @@
+import ProgramFooter from "@/components/Programes Footer/ProgramFooter";
 import About from "@/components/WellBeing/About";
 import Activity from "@/components/WellBeing/Activity";
 import Head from "@/components/WellBeing/Head";
@@ -12,6 +13,7 @@ const page = () => {
       <Supports />
       <Activity />
       <Photograph />
+      <ProgramFooter />
     </main>
   );
 };
