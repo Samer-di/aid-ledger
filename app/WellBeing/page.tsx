@@ -1,4 +1,5 @@
 import About from "@/components/WellBeing/About";
+import Activity from "@/components/WellBeing/Activity";
 import Head from "@/components/WellBeing/Head";
 import Supports from "@/components/WellBeing/Supports";
 
@@ -8,6 +9,7 @@ const page = () => {
       <Head />
       <About />
       <Supports />
+      <Activity />
     </main>
   );
 };
