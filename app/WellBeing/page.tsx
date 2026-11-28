@@ -7,7 +7,7 @@ import Supports from "@/components/WellBeing/Supports";
 
 const page = () => {
   return (
-    <main className="w-full mt-20 bg-[#F3F7FA]">
+    <main className="w-full mt-20 bg-[#F3F7FA] caret-transparent">
       <Head />
       <About />
       <Supports />
