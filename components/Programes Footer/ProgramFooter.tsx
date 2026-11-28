@@ -3,11 +3,7 @@ import { faPagelines } from "@fortawesome/free-brands-svg-icons";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 
-type ProgramFooterProps = {
-  programName?: string;
-};
-
-const ProgramFooter = ({ programName = "Well-being" }: ProgramFooterProps) => {
+const ProgramFooter = () => {
   return (
     <footer
       className="mx-auto my-8 flex w-[94%] flex-col items-center
@@ -29,8 +25,8 @@ const ProgramFooter = ({ programName = "Well-being" }: ProgramFooterProps) => {
         text-[#181E33] lg:w-auto lg:border-l-2
         lg:border-[#D5DEE7] lg:pl-6 xl:text-lg 2xl:text-xl"
       >
-        Would you like to learn more about the {programName} program? We&apos;d
-        be happy to hear from you.
+        Would you like to learn more about this program? We&apos;d be happy to
+        hear from you.
       </p>
 
       <Link
